@@ -1,0 +1,4 @@
+name = "Markdown MDN"
+grammar = "mdn"
+path_suffixes = ["md"]
+line_comments = []

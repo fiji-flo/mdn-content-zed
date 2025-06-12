@@ -1,0 +1,17 @@
+id = "mdn-content-helper"
+name = "MDN content helper"
+description = "Support for authoring MDN content."
+version = "0.0.1"
+schema_version = 1
+authors = ["Florian Dieminger <me@fiji-flo.de>"]
+repository = "https://github.com/fiji-flo/mdn-content-zed"
+
+
+[language_servers.mdn]
+name = "MDN content LSP"
+languages = ["Markdown MDN"]
+
+
+[grammars.mdn]
+repository = "https://github.com/mdn/tree-sitter-mdn"
+rev = "1b0e68c7a8e9e060d2318282690ebfb1e9df454a"
